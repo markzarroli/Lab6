@@ -5,6 +5,10 @@ def main():
     # Taking input for age
     age = input("Enter your age: ")
 
+    if not age.isdigit():
+        print("Write a number for your age instead of a word")
+        return
+
     # Printing name and age
     print("Your name is:", name)
     print("Your age is:", int(age))
