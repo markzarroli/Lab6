@@ -7,7 +7,7 @@ def main():
 
     # Printing name and age
     print("Your name is:", name)
-    print("Your age is:", age)
+    print("Your age is:", int(age))
 
 if __name__ == "__main__":
     main()
